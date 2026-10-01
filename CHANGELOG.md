@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+- Replaced the Brazilian Portuguese showcase image with an English screenshot for the international package page.
+- Changed the README image URL to a new English asset so GitHub and Thunderstore do not retain the old cached screenshot.
+- Fixed the MIT License link for the Thunderstore README.
+
 ## 1.0.0
 
 - First public release as **HearthCodex**.

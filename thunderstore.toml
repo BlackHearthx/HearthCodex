@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "Blackhearthx"
 name = "HearthCodex"
-versionNumber = "1.0.0"
+versionNumber = "1.0.1"
 description = "Progressive bestiary: discover creatures, unlock combat data and drops, browse biomes, and get weapon recommendations."
 websiteUrl = "https://github.com/BlackHearthx/HearthCodex"
 containsNsfwContent = false
