@@ -72,4 +72,4 @@ O progresso é separado por personagem. As criaturas desconhecidas continuam com
 | GUID | `com.blackhearthx.hearthcodex` |
 | Source | [github.com/BlackHearthx/HearthCodex](https://github.com/BlackHearthx/HearthCodex) |
 
-Released under the [MIT License](LICENSE).
+Released under the [MIT License](https://github.com/BlackHearthx/HearthCodex/blob/main/LICENSE).
