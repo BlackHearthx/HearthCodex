@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="Environment.props" Condition="Exists('Environment.props')" />
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>HearthCodex</AssemblyName>
+    <RootNamespace>CreatureCodex</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <DebugType>portable</DebugType>
+    <Version>1.0.0</Version>
+    <Authors>BlackHearthx</Authors>
+    <Description>A progressive creature bestiary for Valheim, saved per character.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JotunnLib" Version="2.30.2" />
+  </ItemGroup>
+
+  <Target Name="DeployToValheim" AfterTargets="Build">
+    <MakeDir Directories="$(MOD_DEPLOYPATH)" Condition="'$(MOD_DEPLOYPATH)' != ''" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(MOD_DEPLOYPATH)" Condition="'$(MOD_DEPLOYPATH)' != '' And Exists('$(TargetPath)')" />
+  </Target>
+</Project>
+
+
+
+

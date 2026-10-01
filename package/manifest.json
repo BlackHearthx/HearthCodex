@@ -1,0 +1,10 @@
+{
+  "name": "HearthCodex",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/BlackHearthx/HearthCodex",
+  "description": "Progressive bestiary: discover creatures, unlock combat data and drops, browse biomes, and get weapon recommendations.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2333",
+    "ValheimModding-Jotunn-2.30.2"
+  ]
+}

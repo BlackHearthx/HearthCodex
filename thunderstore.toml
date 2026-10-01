@@ -1,0 +1,34 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "Blackhearthx"
+name = "HearthCodex"
+versionNumber = "1.0.0"
+description = "Progressive bestiary: discover creatures, unlock combat data and drops, browse biomes, and get weapon recommendations."
+websiteUrl = "https://github.com/BlackHearthx/HearthCodex"
+containsNsfwContent = false
+
+[package.dependencies]
+"denikson-BepInExPack_Valheim" = "5.4.2333"
+"ValheimModding-Jotunn" = "2.30.2"
+
+[build]
+icon = "./package/icon.png"
+readme = "./README.md"
+outdir = "./dist/tcli"
+
+[[build.copy]]
+source = "./dist/HearthCodex.dll"
+target = "./"
+
+[[build.copy]]
+source = "./CHANGELOG.md"
+target = "./"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["valheim"]
+
+[publish.categories]
+valheim = ["mods", "tools", "client-side"]
