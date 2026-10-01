@@ -14,7 +14,7 @@ namespace CreatureCodex
     {
         public const string PluginGUID = "com.blackhearthx.hearthcodex";
         public const string PluginName = "HearthCodex";
-        public const string PluginVersion = "1.0.1";
+        public const string PluginVersion = "1.0.2";
 
         private Harmony _harmony;
         private bool _observationFailed;

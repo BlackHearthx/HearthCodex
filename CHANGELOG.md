@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2
+
+- Changed the default bestiary shortcut from **B** to **F7** to reduce conflicts with other mods.
+- Added a one-time migration that moves the old untouched **B** binding to **F7** while preserving other custom shortcuts.
+
 ## 1.0.1
 
 - Replaced the Brazilian Portuguese showcase image with an English screenshot for the international package page.

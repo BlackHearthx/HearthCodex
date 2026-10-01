@@ -4,7 +4,7 @@
 
 **Learn the creatures of Valheim instead of reading a completed wiki on day one.**
 
-By **BlackHearthx**. Open the book with **B** by default.
+By **BlackHearthx**. Open the book with **F7** by default.
 
 > Observe a creature to discover its identity. Defeat it with credited kill participation to complete its entry.
 
@@ -27,7 +27,7 @@ Weapon suggestions compare quality-one base damage after resistances. They prior
 
 ## Your first session
 
-1. Press **B** to open HearthCodex.
+1. Press **F7** to open HearthCodex.
 2. Approach a creature and keep it clearly in view to discover it.
 3. Defeat the creature and receive Valheim's kill credit to complete the entry.
 4. Open the book again and browse its combat notes, drops, and suggested weapons.
@@ -50,7 +50,7 @@ HearthCodex is client-side and does not enforce installation on the server. Mult
 
 ## Português do Brasil
 
-O HearthCodex adiciona um bestiário progressivo ao Valheim. A tecla padrão é **B**.
+O HearthCodex adiciona um bestiário progressivo ao Valheim. A tecla padrão é **F7**.
 
 Observe criaturas comuns para descobrir sua identidade e use Vegvisires para descobrir chefes. Quando você participa de uma morte reconhecida pelo jogo, a ficha é estudada e libera vida, resistências, pontos fracos, espólio, biomas e armas recomendadas. As recomendações usam somente receitas conhecidas pelo personagem e procuram variar os tipos de arma.
 
@@ -58,7 +58,7 @@ O progresso é separado por personagem. Criaturas desconhecidas continuam como `
 
 ## Português de Portugal
 
-O HearthCodex adiciona um bestiário progressivo ao Valheim. A tecla predefinida é **B**.
+O HearthCodex adiciona um bestiário progressivo ao Valheim. A tecla predefinida é **F7**.
 
 Observa criaturas comuns para descobrir a sua identidade e usa Vegvisires para descobrir chefes. Quando participas numa morte reconhecida pelo jogo, a entrada fica estudada e revela vida, resistências, pontos fracos, espólio, biomas e armas recomendadas. As recomendações usam apenas receitas conhecidas pela personagem e procuram variar os tipos de arma.
 

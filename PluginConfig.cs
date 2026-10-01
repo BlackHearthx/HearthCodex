@@ -1,3 +1,4 @@
+using System;
 using BepInEx.Configuration;
 using UnityEngine;
 
@@ -41,8 +42,28 @@ namespace CreatureCodex
             OpenKey = config.Bind(
                 "Book",
                 "OpenKey",
-                new KeyboardShortcut(KeyCode.B),
+                new KeyboardShortcut(KeyCode.F7),
                 "Opens and closes the codex. This is not one of the game's own actions, so it does not replace a vanilla bind.");
+
+            ConfigEntry<int> openKeyMigration = config.Bind(
+                "Internal",
+                "OpenKeyMigrationVersion",
+                0,
+                "Internal migration marker. Leave this value unchanged.");
+
+            if (openKeyMigration.Value < 1)
+            {
+                bool stillUsesLegacyDefault = OpenKey.Value.MainKey == KeyCode.B
+                    && string.Equals(OpenKey.Value.ToString(), "B", StringComparison.OrdinalIgnoreCase);
+
+                if (stillUsesLegacyDefault)
+                {
+                    OpenKey.Value = new KeyboardShortcut(KeyCode.F7);
+                }
+
+                openKeyMigration.Value = 1;
+                config.Save();
+            }
 
             ShowDamageMultipliers = config.Bind(
                 "Book",
