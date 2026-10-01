@@ -1,6 +1,6 @@
 # HearthCodex
 
-![HearthCodex](https://raw.githubusercontent.com/BlackHearthx/HearthCodex/main/docs/hearthcodex_bestiary_ptbr.jpg)
+![HearthCodex](https://raw.githubusercontent.com/BlackHearthx/HearthCodex/main/docs/hearthcodex_bestiary_en.jpg)
 
 **Learn the creatures of Valheim instead of reading a completed wiki on day one.**
 
